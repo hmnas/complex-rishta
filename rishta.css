@@ -156,9 +156,8 @@ nav ul li:first-child {
 
 .main {
     gap: 10px;
-    width: 100%;
-    max-width: 100vw;
     display: flex;
+    flex-wrap: wrap;
     /* margin: -10px auto; */
 
 
@@ -257,7 +256,7 @@ nav ul li:first-child {
     background-color: rgb(241, 241, 241);
     display: flex;
     flex-wrap: wrap;
-    flex: 65%;
+    flex: 63%;
 }
 
 
