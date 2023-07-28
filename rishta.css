@@ -176,11 +176,16 @@ nav ul li:first-child {
     text-align: center;
     /* padding: 10px; */
 }
-
-.left div {
-    margin: 30px auto;
+.gender,
+.status,
+.rel,
+.sect,
+.edu,
+.cast,
+.country,
+.city {
+    margin: 20px auto;
 }
-
 .gender,
 .marital-age,
 .rel-sec,
