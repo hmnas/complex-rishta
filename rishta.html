@@ -1,0 +1,418 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="rishta.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+        integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Bree+Serif&family=Manrope:wght@500&family=Signika&family=Signika+Negative&display=swap"
+        rel="stylesheet">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="container">
+        <!-- //for navigation bar and below -->
+        <header class="header">
+            <nav>
+                <ul>
+                    <li class="logo">Simple Rishta </li>
+                    <li class="home">Home</li>
+                    <li class="about">About</li>
+                    <li class="que">FAQs</li>
+                    <li class="blog">Blog</li>
+                    <li class="contact">Contact Us</li>
+                    <li class="pak"><img
+                            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSkMtjykDw8N_wJmx4P-fe4CeUFYdxiOYqZwA&usqp=CAU">اردو
+                    </li>
+                    <li class="eng"><img
+                            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ6xAWC0hZWiPSzwdlQFObEmxs1j_736SA0lQ&usqp=CAU">English
+                    </li>
+                </ul>
+            </nav>
+            <!-- <div id="home"> </div> -->
+            <div class="head" id="home">
+                <div class="services flex">
+                    <h2>Find Your Rishta Online</h2>
+                    <p>Simple Rishta is an online matrimonial service that helps Pakistani families and couples
+                        searching for an online rishta. You can use the following section to filter suitable matches
+                        according to your preferences in real-time. You can then register or login to contact your
+                        preferred rishtas.</p>
+                    <div class="btn">
+                        <button class="login">LOGIN</button>
+                        <button class="register" style="background: rgb(198, 102, 198); color: white;">REGISTER</button>
+                    </div>
+
+                </div>
+                <div class="video flex">
+                    <h1>رشتہ پر رشتہ کی تلاش کیسے کریں؟</h1>
+                    <button>جاننے کے لیے یہاں کلک کریں</button>
+                </div>
+
+            </div>
+
+        </header>
+        <!-- main container -->
+        <div class="main">
+            <div class="left">
+                <h2>I am looking for</h2>
+                <div class="data">
+
+                    <div class="gender">
+                        <span>Male<i class="bi bi-person-fill"></i></span>
+                        <span>Female<i class="bi bi-person-fill"></i></span>
+                    </div>
+                    <div class="marital-age">
+                        <div class="status"> <select>
+                                <option>Status</option>
+                                <option>Single</option>
+                                <option>Married</option>
+                                <option>Separated</option>
+                                <option>Divorced</option>
+                                <option>Widower</option>
+                            </select>
+                        </div>
+                        <div class=" agerange" style="color: rgb(224, 224, 123); font-size: 15px;">Age Range</div>
+                        <div class="age">
+                            <div class="min-age">18</div>
+                            <div class="range"><input type="range" max="70" min="18"></input></div>
+                            <div class="max-age">70</div>
+                        </div>
+                    </div>
+                    <div class="rel-sec">
+                        <div class="rel"><select>
+                                <option value="">Religions</option>
+                                <option>Musllim</option>
+                                <option>Christian</option>
+                                <option>Sikh</option>
+                                <option>Hindu</option>
+                                <option>Budh</option>
+                                <option>Jew</option>
+                                <option>Ahmadi</option>
+
+                            </select></div>
+                        <div class="sect"> <select>
+                                <!-- <option>Sect(s)</option>
+                        <option>Sunni</option>
+                        <option>Barelvi</option>
+                        <option>Deobandi</option>
+                        <option>Ahle-E-Hadees</option>
+                        <option>Shia</option>
+                        <option>Other</option>
+                        <option>Ahmadi</option> -->
+                            </select></div>
+                    </div>
+                    <div class="edu-cast">
+                        <div class="edu"> <select>
+                                <option>Education</option>
+                                <option>None</option>
+                                <option>Elementary</option>
+                                <option>Primary</option>
+                                <option>Secondary</option>
+                                <option>Matric</option>
+                                <option>Bachelors</option>
+                                <option>Masters</option>
+
+                            </select></div>
+                        <div class="cast"> <select>
+                                <option>Cast</option>
+                                <option>Achakzai</option>
+                                <option>Afridi</option>
+                                <option>Abbasi</option>
+                                <option>Ansari</option>
+                                <option>Arain</option>
+                                <option>Awan</option>
+                                <option>Babri</option>
+                                <option>Baig</option>
+                                <option>Baloch</option>
+                                <option>Battla</option>
+                                <option>Changezi</option>
+                                <option>Chugtai</option>
+                                <option>Darzi</option>
+                                <option>Dogar</option>
+                                <option>Dome</option>
+                                <option>Gakhar</option>
+                                <option>Gujjar</option>
+                                <option>Hashmi</option>
+                                <option>Jaam</option>
+                                <option>Jatt</option>
+                                <option>Kalwar</option>
+                                <option>Kashmir</option>
+                                <option>Khan</option>
+                                <option>Khatak</option>
+                                <option>Kumhaar</option>
+                                <option>Lagryal</option>
+                                <option>Lodhi</option>
+                                <option>Machi</option>
+                                <option>Malik</option>
+                                <option>Marasi</option>
+                                <option>Mirza</option>
+                                <option>Mughal</option>
+                                <option>Niazi</option>
+                                <option>Orakzi</option>
+                                <option>Pathan</option>
+                                <option>Punjabi</option>
+                                <option>Rajpoot</option>
+
+                            </select>
+                        </div>
+                    </div>
+                    <div class="hometown">
+                        <div class="country"><select>
+
+                            </select></div>
+                        <div class="city"> <select>
+                                <option>city</option>
+                                <option>Please Select Country</option>
+                            </select></div>
+                    </div>
+
+                </div>
+            </div>
+            <div class="right">
+                <p>Simple Rishta found <span style=" color:rgb(194, 15,113)">matches</span> for you!</p>
+                <div class="cards">
+
+                    <div class="card1 card">
+                        <div class="id">
+                            <img src="https://profiles.bugcrowdusercontent.com/avatars/412b515c3ca45920d437a8293e34491d/Avatar_NoFace_7.png"
+                                alt="pic">
+                            <div class="num">
+                                <h3>MATID 441441</h3>
+                                <p>Profile Created By</p>
+                                <p>Candidate</p>
+                                <p>Full Profile<i class="fa-solid fa-angles-right"></i></p>
+                            </div>
+                        </div>
+                        <div class="cards-data">
+                            <div class="cards-data-left">
+                                <div><i class="bi bi-gender-male"></i>Single
+                                </div>
+                                <div><i class="bi bi-geo-alt-fill"></i> Sialkot</div>
+
+                                <div><i class="fa-solid fa-hands-praying"></i> Muslim</div>
+                                <div class="educ"><i class="fa-solid fa-graduation-cap"></i> Not Specified</div>
+                            </div>
+                            <div class="cards-data-right">
+                                <div><img src="https://logowik.com/content/uploads/images/187125.jpg">27 Years</div>
+                                <div><i class="bi bi-geo-alt-fill"></i> Pakistan</div>
+
+                                <div><i class="fa-sharp fa-solid fa-user-tie"> </i>Mughal
+                                </div>
+                            </div>
+                        </div>
+                        <!-- <div class="marital">
+                    
+                        </div> -->
+
+
+
+                    </div>
+
+                    <div class="card2 card">
+                        <div class="id">
+                            <img src="https://profiles.bugcrowdusercontent.com/avatars/412b515c3ca45920d437a8293e34491d/Avatar_NoFace_7.png"
+                                alt="pic">
+                            <div class="num">
+                                <h3>MATID 441441</h3>
+                                <p>Profile Created By</p>
+                                <p>Candidate</p>
+                                <p>Full Profile<i class="fa-solid fa-angles-right"></i></p>
+                            </div>
+                        </div>
+                        <div class="cards-data">
+                            <div class="cards-data-left">
+                                <div><i class="bi bi-gender-male"></i>Single
+                                </div>
+                                <div><i class="bi bi-geo-alt-fill"></i> Sialkot</div>
+
+                                <div><i class="fa-solid fa-hands-praying"></i> Muslim</div>
+                                <div class="educ"><i class="fa-solid fa-graduation-cap"></i> Not Specified</div>
+                            </div>
+                            <div class="cards-data-right">
+                                <div><img src="https://logowik.com/content/uploads/images/187125.jpg">27 Years</div>
+                                <div><i class="bi bi-geo-alt-fill"></i> Pakistan</div>
+
+                                <div><i class="fa-sharp fa-solid fa-user-tie"> </i>Awan
+                                </div>
+                            </div>
+                        </div>
+                        <!-- <div class="marital">
+                    
+                        </div> -->
+
+
+
+                    </div>
+                    <div class="card3 card">
+                        <div class="id">
+                            <img src="https://profiles.bugcrowdusercontent.com/avatars/412b515c3ca45920d437a8293e34491d/Avatar_NoFace_7.png"
+                                alt="pic">
+                            <div class="num">
+                                <h3>MATID 441441</h3>
+                                <p>Profile Created By</p>
+                                <p>Candidate</p>
+                                <p>Full Profile<i class="fa-solid fa-angles-right"></i></p>
+                            </div>
+                        </div>
+                        <div class="cards-data">
+                            <div class="cards-data-left">
+                                <div><i class="bi bi-gender-male"></i>Single
+                                </div>
+                                <div><i class="bi bi-geo-alt-fill"></i> Sialkot</div>
+
+                                <div><i class="fa-solid fa-hands-praying"></i> Muslim</div>
+                                <div class="educ"><i class="fa-solid fa-graduation-cap"></i> Not Specified</div>
+                            </div>
+                            <div class="cards-data-right">
+                                <div><img src="https://logowik.com/content/uploads/images/187125.jpg">27 Years</div>
+                                <div><i class="bi bi-geo-alt-fill"></i> Pakistan</div>
+
+                                <div><i class="fa-sharp fa-solid fa-user-tie"> </i>Rajpoot
+                                </div>
+                            </div>
+                        </div>
+                        <!-- <div class="marital">
+                        
+                            </div> -->
+
+
+
+                    </div>
+                    <div class="card4 card">
+                        <div class="id">
+                            <img src="https://profiles.bugcrowdusercontent.com/avatars/412b515c3ca45920d437a8293e34491d/Avatar_NoFace_7.png"
+                                alt="pic">
+                            <div class="num">
+                                <h3>MATID 441441</h3>
+                                <p>Profile Created By</p>
+                                <p>Candidate</p>
+                                <p>Full Profile<i class="fa-solid fa-angles-right"></i></p>
+                            </div>
+                        </div>
+                        <div class="cards-data">
+                            <div class="cards-data-left">
+                                <div><i class="bi bi-gender-male"></i>Single
+                                </div>
+                                <div><i class="bi bi-geo-alt-fill"></i> Sialkot</div>
+
+                                <div><i class="fa-solid fa-hands-praying"></i> Muslim</div>
+                                <div class="educ"><i class="fa-solid fa-graduation-cap"></i> Not Specified</div>
+                            </div>
+                            <div class="cards-data-right">
+                                <div><img src="https://logowik.com/content/uploads/images/187125.jpg">27 Years</div>
+                                <div><i class="bi bi-geo-alt-fill"></i> Pakistan</div>
+
+                                <div><i class="fa-sharp fa-solid fa-user-tie"> </i>Mughal
+                                </div>
+                            </div>
+                        </div>
+                        <!-- <div class="marital">
+                            
+                                </div> -->
+
+
+
+                    </div>
+                    <div class="card5 card">
+                        <div class="id">
+                            <img src="https://profiles.bugcrowdusercontent.com/avatars/412b515c3ca45920d437a8293e34491d/Avatar_NoFace_7.png"
+                                alt="pic">
+                            <div class="num">
+                                <h3>MATID 441441</h3>
+                                <p>Profile Created By</p>
+                                <p>Candidate</p>
+                                <p>Full Profile<i class="fa-solid fa-angles-right"></i></p>
+                            </div>
+                        </div>
+                        <div class="cards-data">
+                            <div class="cards-data-left">
+                                <div><i class="bi bi-gender-male"></i>Single
+                                </div>
+                                <div><i class="bi bi-geo-alt-fill"></i> Sialkot</div>
+
+                                <div><i class="fa-solid fa-hands-praying"></i> Muslim</div>
+                                <div class="educ"><i class="fa-solid fa-graduation-cap"></i> Not Specified</div>
+                            </div>
+                            <div class="cards-data-right">
+                                <div><img src="https://logowik.com/content/uploads/images/187125.jpg">27 Years</div>
+                                <div><i class="bi bi-geo-alt-fill"></i> Pakistan</div>
+
+                                <div><i class="fa-sharp fa-solid fa-user-tie"> </i>Sulehri
+                                </div>
+                            </div>
+                        </div>
+                        <!-- <div class="marital">
+                                
+                                    </div> -->
+
+
+
+                    </div>
+                    <div class="card6 card">
+                        <div class="id">
+                            <img src="https://profiles.bugcrowdusercontent.com/avatars/412b515c3ca45920d437a8293e34491d/Avatar_NoFace_7.png"
+                                alt="pic">
+                            <div class="num">
+                                <h3>MATID 441441</h3>
+                                <p>Profile Created By</p>
+                                <p>Candidate</p>
+                                <p>Full Profile<i class="fa-solid fa-angles-right"></i></p>
+                            </div>
+                        </div>
+                        <div class="cards-data">
+                            <div class="cards-data-left">
+                                <div><i class="bi bi-gender-male"></i>Single
+                                </div>
+                                <div><i class="bi bi-geo-alt-fill"></i> Sialkot</div>
+
+                                <div><i class="fa-solid fa-hands-praying"></i> Muslim</div>
+                                <div class="educ"><i class="fa-solid fa-graduation-cap"></i> Not Specified</div>
+                            </div>
+                            <div class="cards-data-right">
+                                <div><img src="https://logowik.com/content/uploads/images/187125.jpg">27 Years</div>
+                                <div><i class="bi bi-geo-alt-fill"></i> Pakistan</div>
+
+                                <div><i class="fa-sharp fa-solid fa-user-tie"> </i>Butt
+                                </div>
+                            </div>
+                        </div>
+                        <!-- <div class="marital">
+                                    
+                                        </div> -->
+
+
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="pagination">
+            <a href="">&laquo;</a>
+            <a href="">&lt;</a>
+            <a href="" class="no1">1</a>
+            <a href="" class="no2">2</a>
+            <a href="" class="no3">3</a>
+            <a href="" class="no4">4</a>
+            <a href="" class="no5">5</a>
+            <a href="" class="no6">6</a>
+            <a href="">&gt;</a>
+            <a href="">&raquo;</a>
+        </div>
+    </div>
+
+
+
+    <script src="rishta.js"></script>
+</body>
+
+</html>
