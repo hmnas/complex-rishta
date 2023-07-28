@@ -198,6 +198,7 @@ nav ul li:first-child {
 .left .age {
     display: flex;
     padding: 0;
+    justify-content: center;
 }
 
 .age .max-age,
