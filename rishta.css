@@ -419,41 +419,8 @@ p {
     background: rgb(194, 15, 113);
 }
 
-@media (max-width: 800px) {
-    .main {
+@media only screen and (min-width: 768px){
+    .main{
         flex-direction: column;
-    }
-
-    .gender,
-    .marital-age,
-    .rel-sec,
-    .edu-cast,
-    .hometown {
-        flex-direction: row;
-        gap: 20px;
-    }
-
-    .status,
-    .age,
-    .sec,
-    .cast,
-    .country,
-    .city,
-    .rel,
-    .edu {
-        background: white;
-        border: 1px solid grey;
-        border-radius: 5px;
-        padding: 10px 100px 10px 0px;
-        display: inline-block;
-    }
-
-    .left div {
-        margin: 30px auto;
-        width: 90%;
-    }
-
-    .gender span {
-        padding: 15px;
     }
 }
